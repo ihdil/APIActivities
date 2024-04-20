@@ -1,6 +1,5 @@
-package Assignments;
+package Week08Assignments;
 
-import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
