@@ -1,6 +1,6 @@
 package request;
 
-import baseURL.JsonPlaceHolderBaseURL;
+import baseURL.JsonPlaceHolderBaseUrl;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.testng.Assert;
@@ -12,7 +12,7 @@ import static io.restassured.RestAssured.given;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
-public class C09_Groovy extends JsonPlaceHolderBaseURL {
+public class C09_Groovy extends JsonPlaceHolderBaseUrl {
     @Test
     public void groovyTest() {
 
