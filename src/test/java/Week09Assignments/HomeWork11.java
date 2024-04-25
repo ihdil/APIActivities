@@ -1,4 +1,4 @@
-package Week08Assignments;
+package Week09Assignments;
 
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
