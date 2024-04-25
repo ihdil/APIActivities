@@ -7,7 +7,7 @@ import org.testng.annotations.BeforeMethod;
 
 public class HomeWork10BaseURL {
     protected RequestSpecification spec;
-
+//baseURL of class HomeWork10
     @BeforeMethod
     public void setSpec() {
 
