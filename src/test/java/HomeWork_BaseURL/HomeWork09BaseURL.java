@@ -10,7 +10,7 @@ public class HomeWork09BaseURL {
 
     @BeforeMethod
     public void setSpec() {
-
+//baseURL of class HomeWork09
         spec = new RequestSpecBuilder()
                 .setBaseUri("https://petstore.swagger.io/v2/user")
                 .setContentType(ContentType.JSON)
