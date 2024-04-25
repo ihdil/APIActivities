@@ -1,4 +1,4 @@
-package Week09Assignment;
+package Week09Assignments;
 
 import HomeWork_BaseURL.HomeWork10BaseURL;
 import io.restassured.response.Response;
