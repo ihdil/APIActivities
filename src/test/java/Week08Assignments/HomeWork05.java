@@ -1,4 +1,4 @@
-package Week08Assignment;
+package Week08Assignments;
 
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
