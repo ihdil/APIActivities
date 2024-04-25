@@ -1,4 +1,4 @@
-package Week08Assignments;
+package Week08Assignment;
 
 import baseURL.HomeWork08BaseURL;
 import io.restassured.http.ContentType;

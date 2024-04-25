@@ -1,4 +1,4 @@
-package Week08Assignments;
+package Week08Assignment;
 
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
