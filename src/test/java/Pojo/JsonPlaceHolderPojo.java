@@ -1,13 +1,19 @@
 package Pojo;
 
-import Test.BookerTestData;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
-public class JsonPlaceHolderPojo { //Create private variables for each field
+@JsonIgnoreProperties(ignoreUnknown = true)//With this annotation, we will ignore the fields that does not fit the fields in this class.
+public class JsonPlaceHolderPojo {
+    //Create private variables for each field
     private Integer userId;
     private String title;
     private Boolean completed;
+
     //Create constructors with parameters and without parameters
     public JsonPlaceHolderPojo() {
+        //We need this for de-serialization.
+        // Because when you create a constructor in a class, default constructor will disappear.
+        // An empty constructor will be used as default constructor.
     }
 
     public JsonPlaceHolderPojo(Integer userId, String title, Boolean completed) {
@@ -15,6 +21,7 @@ public class JsonPlaceHolderPojo { //Create private variables for each field
         this.title = title;
         this.completed = completed;
     }
+
     //Create Getters and Setters
     public Integer getUserId() {
         return userId;
@@ -23,6 +30,7 @@ public class JsonPlaceHolderPojo { //Create private variables for each field
     public void setUserId(Integer userId) {
         this.userId = userId;
     }
+
     public String getTitle() {
         return title;
     }
