@@ -1,53 +1,73 @@
 package Pojo;
 
-import baseURL.HomeWork12BaseURL;
-import org.testng.annotations.Test;
+import java.util.List;
 
-public class HomeWork12Pojo {
-    private long id;
-    private String name;
-    private String status;
+public class HomeWork12Pojo{
+	private List<String> photoUrls;
+	private String name;
+	private Integer id;
+	private Category category;
+	private List<TagsItem> tags;
+	private String status;
 
-    public HomeWork12Pojo() {
-    }
+	public void setPhotoUrls(List<String> photoUrls){
+		this.photoUrls = photoUrls;
+	}
 
-    public HomeWork12Pojo(long id, String name, String status) {
-        this.id = id;
-        this.name = name;
-        this.status = status;
-    }
+	public List<String> getPhotoUrls(){
+		return photoUrls;
+	}
 
-    // Getters and setters
-    public long getId() {
-        return id;
-    }
+	public void setName(String name){
+		this.name = name;
+	}
 
-    public void setId(long id) {
-        this.id = id;
-    }
+	public String getName(){
+		return name;
+	}
 
-    public String getName() {
-        return name;
-    }
+	public void setId(Integer id){
+		this.id = id;
+	}
 
-    public void setName(String name) {
-        this.name = name;
-    }
+	public Integer getId(){
+		return id;
+	}
 
-    public String getStatus() {
-        return status;
-    }
+	public void setCategory(Category category){
+		this.category = category;
+	}
 
-    public void setStatus(String status) {
-        this.status = status;
-    }
-    @Override
-    public String toString() {
-        return "JsonPlaceHolderPojo{" +
-                "Id=" + id +
-                ", name='" + name + '\'' +
-                ", status=" + status +
-                '}';
-    }
+	public Category getCategory(){
+		return category;
+	}
+
+	public void setTags(List<TagsItem> tags){
+		this.tags = tags;
+	}
+
+	public List<TagsItem> getTags(){
+		return tags;
+	}
+
+	public void setStatus(String status){
+		this.status = status;
+	}
+
+	public String getStatus(){
+		return status;
+	}
+
+	@Override
+ 	public String toString(){
+		return 
+			"HomeWork12Pojo{" + 
+			"photoUrls = '" + photoUrls + '\'' + 
+			",name = '" + name + '\'' + 
+			",id = '" + id + '\'' + 
+			",category = '" + category + '\'' + 
+			",tags = '" + tags + '\'' + 
+			",status = '" + status + '\'' + 
+			"}";
+		}
 }
-
