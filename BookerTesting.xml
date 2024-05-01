@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/hadee/IdeaProjects/RestAssured/src/test/java/BookerTest">
+        <classes>
+            <class name="BookerTest.R1_Read"></class>
+            <class name="BookerTest.R2_Create"></class>
+            <class name="BookerTest.R3_ReadId"></class>
+            <class name="BookerTest.R4_Update"></class>
+            <class name="BookerTest.R5_PartialUpdateBooking"></class>
+            <class name="BookerTest.R06_Delete"></class>
+        </classes>
+    </test>
+</suite>
