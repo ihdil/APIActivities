@@ -1,6 +1,6 @@
 package Week08Assignments;
 
-import baseURL.HomeWork08BaseURL;
+import HomeWork_BaseURL.HomeWork08BaseURL;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;

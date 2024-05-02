@@ -2,7 +2,7 @@ package Week09Assignments;
 
 import Pojo.HomeWork12Pojo;
 import Utiliti.ObjectMapperUtils;
-import baseURL.HomeWork12BaseURL;
+import HomeWork_BaseURL.HomeWork12BaseURL;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
