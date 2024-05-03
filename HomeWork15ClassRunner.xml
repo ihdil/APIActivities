@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/hadee/IdeaProjects/RestAssured/src/test/java/Week10Assignments">
+        <classes>
+            <class name="Week10Assignments.HomeWork15Create"></class>
+            <class name="Week10Assignments.HomeWork15Read"></class>
+            <class name="Week10Assignments.HomeWork15Update"></class>
+            <class name="Week10Assignments.HomeWork15Delete"></class>
+        </classes>
+    </test>
+</suite>
