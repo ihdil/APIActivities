@@ -37,7 +37,6 @@ public class HomeWork15Read extends HomeWork15BaseURL {
         response.prettyPrint();
         HomeWork15Pojo actualData = ObjectMapperUtils.convertJsonToJava(response.asString(), HomeWork15Pojo.class);
         System.out.println("actualData = " + actualData);
-
         assertEquals(response.statusCode(), 200);
         assertEquals(expectedData.getFirstName(),actualData.getFirstName());
         assertEquals(expectedData.getLastName(),actualData.getLastName());

@@ -46,7 +46,6 @@ public class HomeWork15Update extends HomeWork15BaseURL {
         // Parse the JSON response directly into HomeWork15Pojo
         HomeWork15Pojo actualData = response.as(HomeWork15Pojo.class);
         System.out.println("actualData = " + actualData);
-
         // Construct the expected data with updated values
         HomeWork15Pojo expectedData = new HomeWork15Pojo();
         expectedData.setFirstName("Updated");
